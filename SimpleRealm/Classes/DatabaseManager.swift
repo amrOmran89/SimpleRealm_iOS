@@ -52,8 +52,15 @@ public class DatabaseManager: CRUDProtocol {
     }
     
     public func deleteOneElement<T>(object: T, id: String) where T : Object {
-        let oneElement = realm.objects(T.self).filter("id == \(id)").first
-        realm.delete(oneElement!)
+        let predict = NSPredicate(format: "id == %@", id)
+        let oneElement = realm.objects(T.self).filter(predict).first
+        do {
+            try realm.write {
+                realm.delete(oneElement!)
+            }
+        } catch let error {
+           print(error.localizedDescription)
+        }
     }
 
     

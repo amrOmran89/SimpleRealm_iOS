@@ -82,31 +82,35 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cell = tableView.cellForRow(at: indexPath) as! TableViewCell
-        
         print(cell.id!)
     }
+    
     
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         return true
     }
     
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-      
+    
+    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+       
         let cell = tableView.cellForRow(at: indexPath) as! TableViewCell
 
-        switch editingStyle {
-        case .delete:
-            self.databaseManager.deleteOneElement(object: user, id: cell.id!)
+        let delete = UITableViewRowAction(style: .destructive, title: "Delete") { (action, indexPath) in
+           
+            self.databaseManager.deleteOneElement(object: self.user, id: cell.id!)
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }
-        case .insert: break
-            
-        default:
-            break
         }
+        
+        let edit = UITableViewRowAction(style: .normal, title: "Edit") { (action, indexPath) in
+            // share item at indexPath
+        }
+        edit.backgroundColor = .blue
+        delete.backgroundColor = .red
+        
+        return [delete, edit]
     }
-    
     
 }
 
