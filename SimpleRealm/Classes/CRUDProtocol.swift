@@ -31,7 +31,7 @@ public protocol CRUDProtocol {
     
     func deleteAll(object: Object)
     
-    func deleteOneElement(object: Object)
+    func deleteOneElement<T: Object>(object: T, id: String)
 
     
     func update(object: Object)

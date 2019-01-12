@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		6AEA2704A26E05C84339533D /* Pods_SimpleRealm_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C03E3F97A8C7B7EEF58076 /* Pods_SimpleRealm_Example.framework */; };
 		95660752A8476EEB1BB5342A /* Pods_SimpleRealm_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6A0C364CC77819B25C6707 /* Pods_SimpleRealm_Tests.framework */; };
+		C58BA31F21E9EE3F00857702 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BA31E21E9EE3F00857702 /* UserObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9E409EBFFB92346ED0D5FB38 /* Pods-SimpleRealm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRealm_Example.release.xcconfig"; path = "Target Support Files/Pods-SimpleRealm_Example/Pods-SimpleRealm_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD9B96C29685FFA968F4BC98 /* Pods-SimpleRealm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRealm_Tests.release.xcconfig"; path = "Target Support Files/Pods-SimpleRealm_Tests/Pods-SimpleRealm_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B768B1F934A64DA8D3A36BB6 /* Pods-SimpleRealm_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRealm_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleRealm_Tests/Pods-SimpleRealm_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C58BA31E21E9EE3F00857702 /* UserObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
 		DD6A0C364CC77819B25C6707 /* Pods_SimpleRealm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleRealm_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				C58BA31E21E9EE3F00857702 /* UserObject.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -337,6 +340,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				C58BA31F21E9EE3F00857702 /* UserObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

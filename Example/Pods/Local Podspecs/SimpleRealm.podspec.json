@@ -21,12 +21,7 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "SimpleRealm/Classes/**/*",
-  "resource_bundles": {
-    "SimpleRealm": [
-      "SimpleRealm/Assets/**/*"
-    ]
-  },
+  "source_files": "SimpleRealm/Classes/*",
   "dependencies": {
     "RealmSwift": [
 

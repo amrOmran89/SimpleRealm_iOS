@@ -178,7 +178,7 @@
 		C3C8263D42674DCCE154C245DF320FB4 /* shared_realm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BF87991596B4D9F2BD9CE2A0D13EDD /* shared_realm.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.13.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		C4EB7D12DCB8B0B1662D081BEF35D0CD /* SimpleRealm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E79EBFF0491FFCE04243101312A89E0E /* SimpleRealm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C58BA31B21E9E4CA00857702 /* CRUDProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BA31A21E9E4CA00857702 /* CRUDProtocol.swift */; };
-		C58BA31D21E9E67E00857702 /* SimpleRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BA31C21E9E67E00857702 /* SimpleRealm.swift */; };
+		C58BA31D21E9E67E00857702 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BA31C21E9E67E00857702 /* DatabaseManager.swift */; };
 		C77CB277924B374864DD33DB2762D18B /* NSError+RLMSync.h in Headers */ = {isa = PBXBuildFile; fileRef = EAFBE458B50D05606D63DAF663C5E5DC /* NSError+RLMSync.h */; };
 		CB088281A67AE7DCF5308FBE935DFCE1 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3627F454F750DAD6927A672E4E6048 /* Object.swift */; };
 		CE8EE7E35024A0BEE5BB8E6D9AA2A5C7 /* RLMObjectBase_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = DDF9A99E6A4DE8CB4587B5A60E2421A3 /* RLMObjectBase_Private.h */; };
@@ -488,7 +488,7 @@
 		C417019D68740B87519700977B2DC63D /* RLMManagedArray.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = RLMManagedArray.mm; path = Realm/RLMManagedArray.mm; sourceTree = "<group>"; };
 		C487CDC3C74838F1319BFF7159600D7E /* RLMConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMConstants.m; path = Realm/RLMConstants.m; sourceTree = "<group>"; };
 		C58BA31A21E9E4CA00857702 /* CRUDProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CRUDProtocol.swift; path = ../../../SimpleRealm/Classes/CRUDProtocol.swift; sourceTree = "<group>"; };
-		C58BA31C21E9E67E00857702 /* SimpleRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimpleRealm.swift; path = ../../../SimpleRealm/Classes/SimpleRealm.swift; sourceTree = "<group>"; };
+		C58BA31C21E9E67E00857702 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DatabaseManager.swift; path = ../../../SimpleRealm/Classes/DatabaseManager.swift; sourceTree = "<group>"; };
 		C72E2356090D6D549626DE1EEC3625F5 /* RLMSwiftSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSwiftSupport.m; path = Realm/RLMSwiftSupport.m; sourceTree = "<group>"; };
 		C8BF13D0FF815D0D433E89C9F9D2534B /* RLMSyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncManager.h; path = include/RLMSyncManager.h; sourceTree = "<group>"; };
 		CF07B53F1DF51BF943FBC837B2035C97 /* RLMSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema_Private.h; path = include/RLMSchema_Private.h; sourceTree = "<group>"; };
@@ -718,7 +718,7 @@
 			isa = PBXGroup;
 			children = (
 				C58BA31A21E9E4CA00857702 /* CRUDProtocol.swift */,
-				C58BA31C21E9E67E00857702 /* SimpleRealm.swift */,
+				C58BA31C21E9E67E00857702 /* DatabaseManager.swift */,
 				D32CC2A904FB6891224F8C0BD60F1B7A /* Support Files */,
 			);
 			path = SimpleRealm;
@@ -1320,7 +1320,7 @@
 			files = (
 				51A5BA29E9DFDC9CF0145FB0F81439F7 /* SimpleRealm-dummy.m in Sources */,
 				C58BA31B21E9E4CA00857702 /* CRUDProtocol.swift in Sources */,
-				C58BA31D21E9E67E00857702 /* SimpleRealm.swift in Sources */,
+				C58BA31D21E9E67E00857702 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

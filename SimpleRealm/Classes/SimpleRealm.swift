@@ -9,7 +9,7 @@ import Foundation
 import RealmSwift
 
 
-public class SimpleRealm: CRUDProtocol {
+public class DatabaseManager: CRUDProtocol {
     
     private let realm = try! Realm()
     
