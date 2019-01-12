@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028D4BE3199A61FDD3FB1F8286374552 /* SimpleRealm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E5EE5FFE55A38CF01F470B2091F623 /* SimpleRealm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B459CB62D8E237CDD1F775E3103D42A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD103FE94348905FFC0270B5D69963A /* ReplaceMe.swift */; };
+		3E56C3A055BEA7AA3E8596D099FB0625 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		56145962AE7E0DFB59E0D6D693F0D1BA /* SimpleRealm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 577022F16986EF7779B82332F71A4072 /* SimpleRealm-dummy.m */; };
+		6ECEDEA7DF266F4ABB412A542EC26329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		7BD705CB31AFAC053C4E6319C5DB4296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		84375A083C2DB3528146EE898F6384E6 /* Pods-SimpleRealm_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D465FF87EBABC7D2435D8169568D7D9 /* Pods-SimpleRealm_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86396BAFE64B9F87B83948F295A269A4 /* Pods-SimpleRealm_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4948B7B91537F7FC644DE0EE1AC46B5A /* Pods-SimpleRealm_Example-dummy.m */; };
+		ABE975CE953FEFE31E302401424F96D3 /* Pods-SimpleRealm_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EA8399FD7CDE731925A6A408A3229E /* Pods-SimpleRealm_Tests-dummy.m */; };
+		D514F5269EE7F488B3C6A06CCAAAD4ED /* Pods-SimpleRealm_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56095C49D118EF1684694454C375DBD4 /* Pods-SimpleRealm_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		201AAC3FFB9CD74CFDB9029AFA9E4A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1861D663376855701CA5FF0D80F1D547;
+			remoteInfo = "Pods-SimpleRealm_Example";
+		};
+		87FB372A763F7474AB8A4D931C29B4DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94515A4DA4AF2F06FA677207ADF1DE6F;
+			remoteInfo = SimpleRealm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B155BDD373175E53C8467C3E0220859 /* SimpleRealm.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SimpleRealm.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0D3880F764FC3949E3132145FCB8778B /* Pods_SimpleRealm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleRealm_Tests.framework; path = "Pods-SimpleRealm_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBCBC47FF10EBB389EE0AF55CA17EB7 /* Pods-SimpleRealm_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRealm_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A5DC53D992A354773108BE05BEF9219 /* Pods-SimpleRealm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRealm_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1E93D460736BB7613C4C8BE3489B2018 /* Pods-SimpleRealm_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleRealm_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		23EA8399FD7CDE731925A6A408A3229E /* Pods-SimpleRealm_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleRealm_Tests-dummy.m"; sourceTree = "<group>"; };
+		2EC7967615AFC85B3E7C08123D19199D /* SimpleRealm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleRealm-prefix.pch"; sourceTree = "<group>"; };
+		31393A1F7C8D5142584C3628E1342048 /* SimpleRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleRealm.framework; path = SimpleRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E041531B2A1FEF72E9780609B97408 /* Pods-SimpleRealm_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleRealm_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3AAE949355E26C99F311381EE1BFA716 /* Pods-SimpleRealm_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleRealm_Example-frameworks.sh"; sourceTree = "<group>"; };
+		412A7DD07B4A67B988E648FCF46421EF /* Pods-SimpleRealm_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleRealm_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		43A361D567099CC94DE260B5A1B0D1F2 /* Pods_SimpleRealm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleRealm_Example.framework; path = "Pods-SimpleRealm_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4948B7B91537F7FC644DE0EE1AC46B5A /* Pods-SimpleRealm_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleRealm_Example-dummy.m"; sourceTree = "<group>"; };
+		4D465FF87EBABC7D2435D8169568D7D9 /* Pods-SimpleRealm_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleRealm_Tests-umbrella.h"; sourceTree = "<group>"; };
+		56095C49D118EF1684694454C375DBD4 /* Pods-SimpleRealm_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleRealm_Example-umbrella.h"; sourceTree = "<group>"; };
+		577022F16986EF7779B82332F71A4072 /* SimpleRealm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleRealm-dummy.m"; sourceTree = "<group>"; };
+		683F848E674ACFBCC1076DD6602C89BF /* SimpleRealm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleRealm.modulemap; sourceTree = "<group>"; };
+		6C7D7C59F35D8F9ABB028F90B28A20D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		745917371DEFA9E788DD62A81E58EE71 /* Pods-SimpleRealm_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRealm_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		86B3D27CBD965A9A137EC3E36E9F579E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8BE369D6678774473F09D73586639235 /* Pods-SimpleRealm_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleRealm_Tests-Info.plist"; sourceTree = "<group>"; };
+		A197175D24B6A0CFF2DFAF1EFB1B3673 /* Pods-SimpleRealm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRealm_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A4CD83E4B10FC037143FE8C12F45793E /* SimpleRealm-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleRealm-Info.plist"; sourceTree = "<group>"; };
+		AC325FA7EE3F453DC3FCB12E7D16A944 /* Pods-SimpleRealm_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleRealm_Tests.modulemap"; sourceTree = "<group>"; };
+		ADD103FE94348905FFC0270B5D69963A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SimpleRealm/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		AEC38F2EC5B5DC94960E6217D5E99F20 /* Pods-SimpleRealm_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleRealm_Example.modulemap"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DCA631E1DFD9DB3D6F8EF86074F4C3F2 /* Pods-SimpleRealm_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleRealm_Example-Info.plist"; sourceTree = "<group>"; };
+		E4E5EE5FFE55A38CF01F470B2091F623 /* SimpleRealm-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleRealm-umbrella.h"; sourceTree = "<group>"; };
+		F5F53C275091E58AE5EC0AC72D35EF06 /* SimpleRealm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleRealm.xcconfig; sourceTree = "<group>"; };
+		FCA0832B6A546BA4104367544B4D6664 /* Pods-SimpleRealm_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleRealm_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E6D43F66E2C414C82BEE3A011200A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD705CB31AFAC053C4E6319C5DB4296 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E474B5AD6B187A3C3B53E077B73DF7DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECEDEA7DF266F4ABB412A542EC26329 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88BBF0AE6E79BB18AF977332BD278D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E56C3A055BEA7AA3E8596D099FB0625 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		105D96BBAB9C08DD69914D05C45C6F1D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				894269FAEDF1A5442574DA471368053B /* Pods-SimpleRealm_Example */,
+				8F502886A10064126D1F69844A4C6E03 /* Pods-SimpleRealm_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4518EBAA0610F5DFBAFC644A4CA840B4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				86B3D27CBD965A9A137EC3E36E9F579E /* LICENSE */,
+				6C7D7C59F35D8F9ABB028F90B28A20D3 /* README.md */,
+				0B155BDD373175E53C8467C3E0220859 /* SimpleRealm.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		62B151C851637D77E01F0B7E592FB166 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				683F848E674ACFBCC1076DD6602C89BF /* SimpleRealm.modulemap */,
+				F5F53C275091E58AE5EC0AC72D35EF06 /* SimpleRealm.xcconfig */,
+				577022F16986EF7779B82332F71A4072 /* SimpleRealm-dummy.m */,
+				A4CD83E4B10FC037143FE8C12F45793E /* SimpleRealm-Info.plist */,
+				2EC7967615AFC85B3E7C08123D19199D /* SimpleRealm-prefix.pch */,
+				E4E5EE5FFE55A38CF01F470B2091F623 /* SimpleRealm-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimpleRealm";
+			sourceTree = "<group>";
+		};
+		749C6116CFA3B9C434E189CF4DE33BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43A361D567099CC94DE260B5A1B0D1F2 /* Pods_SimpleRealm_Example.framework */,
+				0D3880F764FC3949E3132145FCB8778B /* Pods_SimpleRealm_Tests.framework */,
+				31393A1F7C8D5142584C3628E1342048 /* SimpleRealm.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				9B6F1AAACECC37D34E503AFA3C5F8EE0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				749C6116CFA3B9C434E189CF4DE33BA0 /* Products */,
+				105D96BBAB9C08DD69914D05C45C6F1D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		894269FAEDF1A5442574DA471368053B /* Pods-SimpleRealm_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AEC38F2EC5B5DC94960E6217D5E99F20 /* Pods-SimpleRealm_Example.modulemap */,
+				FCA0832B6A546BA4104367544B4D6664 /* Pods-SimpleRealm_Example-acknowledgements.markdown */,
+				1E93D460736BB7613C4C8BE3489B2018 /* Pods-SimpleRealm_Example-acknowledgements.plist */,
+				4948B7B91537F7FC644DE0EE1AC46B5A /* Pods-SimpleRealm_Example-dummy.m */,
+				3AAE949355E26C99F311381EE1BFA716 /* Pods-SimpleRealm_Example-frameworks.sh */,
+				DCA631E1DFD9DB3D6F8EF86074F4C3F2 /* Pods-SimpleRealm_Example-Info.plist */,
+				56095C49D118EF1684694454C375DBD4 /* Pods-SimpleRealm_Example-umbrella.h */,
+				745917371DEFA9E788DD62A81E58EE71 /* Pods-SimpleRealm_Example.debug.xcconfig */,
+				1A5DC53D992A354773108BE05BEF9219 /* Pods-SimpleRealm_Example.release.xcconfig */,
+			);
+			name = "Pods-SimpleRealm_Example";
+			path = "Target Support Files/Pods-SimpleRealm_Example";
+			sourceTree = "<group>";
+		};
+		8F502886A10064126D1F69844A4C6E03 /* Pods-SimpleRealm_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC325FA7EE3F453DC3FCB12E7D16A944 /* Pods-SimpleRealm_Tests.modulemap */,
+				39E041531B2A1FEF72E9780609B97408 /* Pods-SimpleRealm_Tests-acknowledgements.markdown */,
+				412A7DD07B4A67B988E648FCF46421EF /* Pods-SimpleRealm_Tests-acknowledgements.plist */,
+				23EA8399FD7CDE731925A6A408A3229E /* Pods-SimpleRealm_Tests-dummy.m */,
+				8BE369D6678774473F09D73586639235 /* Pods-SimpleRealm_Tests-Info.plist */,
+				4D465FF87EBABC7D2435D8169568D7D9 /* Pods-SimpleRealm_Tests-umbrella.h */,
+				0FBCBC47FF10EBB389EE0AF55CA17EB7 /* Pods-SimpleRealm_Tests.debug.xcconfig */,
+				A197175D24B6A0CFF2DFAF1EFB1B3673 /* Pods-SimpleRealm_Tests.release.xcconfig */,
+			);
+			name = "Pods-SimpleRealm_Tests";
+			path = "Target Support Files/Pods-SimpleRealm_Tests";
+			sourceTree = "<group>";
+		};
+		9B6F1AAACECC37D34E503AFA3C5F8EE0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9E8ABF83DB76A6A5D534702E1A68FD9 /* SimpleRealm */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9E8ABF83DB76A6A5D534702E1A68FD9 /* SimpleRealm */ = {
+			isa = PBXGroup;
+			children = (
+				ADD103FE94348905FFC0270B5D69963A /* ReplaceMe.swift */,
+				4518EBAA0610F5DFBAFC644A4CA840B4 /* Pod */,
+				62B151C851637D77E01F0B7E592FB166 /* Support Files */,
+			);
+			name = SimpleRealm;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08384DD8DED878FAC9146B489285BFBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028D4BE3199A61FDD3FB1F8286374552 /* SimpleRealm-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5C7099C8892C154FECA5FC61859F03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D514F5269EE7F488B3C6A06CCAAAD4ED /* Pods-SimpleRealm_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3152BB972878B20495B1DB118926EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84375A083C2DB3528146EE898F6384E6 /* Pods-SimpleRealm_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1861D663376855701CA5FF0D80F1D547 /* Pods-SimpleRealm_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFDEA647956BE9F59E6B54ED919A996 /* Build configuration list for PBXNativeTarget "Pods-SimpleRealm_Example" */;
+			buildPhases = (
+				4F5C7099C8892C154FECA5FC61859F03 /* Headers */,
+				D6DDCC6891725FA586A8F8D12337ED13 /* Sources */,
+				1E6D43F66E2C414C82BEE3A011200A6D /* Frameworks */,
+				B4506F223CB08889B9C970F5739A67B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB4C8A290E3081516537CCA2E48487E /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleRealm_Example";
+			productName = "Pods-SimpleRealm_Example";
+			productReference = 43A361D567099CC94DE260B5A1B0D1F2 /* Pods_SimpleRealm_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		724F44522E38C1A6F8FBEC7F939C3710 /* Pods-SimpleRealm_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C79E5877E4013FD1784ABE6531CFF8FA /* Build configuration list for PBXNativeTarget "Pods-SimpleRealm_Tests" */;
+			buildPhases = (
+				FA3152BB972878B20495B1DB118926EB /* Headers */,
+				B92D0B0E05B4366C565EFA1D9D32B3CF /* Sources */,
+				F88BBF0AE6E79BB18AF977332BD278D9 /* Frameworks */,
+				D820E6BD003F7EB719CBC4FE904E80D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65EA2A7DBECA24D440DD7C69D10FC197 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleRealm_Tests";
+			productName = "Pods-SimpleRealm_Tests";
+			productReference = 0D3880F764FC3949E3132145FCB8778B /* Pods_SimpleRealm_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94515A4DA4AF2F06FA677207ADF1DE6F /* SimpleRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E774A71425CB5A9D1C7E30700AB2280 /* Build configuration list for PBXNativeTarget "SimpleRealm" */;
+			buildPhases = (
+				08384DD8DED878FAC9146B489285BFBD /* Headers */,
+				BC52200EF96333725E55C6AED016D25E /* Sources */,
+				E474B5AD6B187A3C3B53E077B73DF7DC /* Frameworks */,
+				6257A6149239FEB262D92C7E5E3EB754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRealm;
+			productName = SimpleRealm;
+			productReference = 31393A1F7C8D5142584C3628E1342048 /* SimpleRealm.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 749C6116CFA3B9C434E189CF4DE33BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1861D663376855701CA5FF0D80F1D547 /* Pods-SimpleRealm_Example */,
+				724F44522E38C1A6F8FBEC7F939C3710 /* Pods-SimpleRealm_Tests */,
+				94515A4DA4AF2F06FA677207ADF1DE6F /* SimpleRealm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6257A6149239FEB262D92C7E5E3EB754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4506F223CB08889B9C970F5739A67B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D820E6BD003F7EB719CBC4FE904E80D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B92D0B0E05B4366C565EFA1D9D32B3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE975CE953FEFE31E302401424F96D3 /* Pods-SimpleRealm_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC52200EF96333725E55C6AED016D25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B459CB62D8E237CDD1F775E3103D42A /* ReplaceMe.swift in Sources */,
+				56145962AE7E0DFB59E0D6D693F0D1BA /* SimpleRealm-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DDCC6891725FA586A8F8D12337ED13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86396BAFE64B9F87B83948F295A269A4 /* Pods-SimpleRealm_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB4C8A290E3081516537CCA2E48487E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleRealm;
+			target = 94515A4DA4AF2F06FA677207ADF1DE6F /* SimpleRealm */;
+			targetProxy = 87FB372A763F7474AB8A4D931C29B4DD /* PBXContainerItemProxy */;
+		};
+		65EA2A7DBECA24D440DD7C69D10FC197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SimpleRealm_Example";
+			target = 1861D663376855701CA5FF0D80F1D547 /* Pods-SimpleRealm_Example */;
+			targetProxy = 201AAC3FFB9CD74CFDB9029AFA9E4A38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C71613AF144917C447ED8B2FB0AFF75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F53C275091E58AE5EC0AC72D35EF06 /* SimpleRealm.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleRealm/SimpleRealm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleRealm/SimpleRealm-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleRealm/SimpleRealm.modulemap";
+				PRODUCT_MODULE_NAME = SimpleRealm;
+				PRODUCT_NAME = SimpleRealm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		51FF8C36A290680666D86F123F3BF4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A197175D24B6A0CFF2DFAF1EFB1B3673 /* Pods-SimpleRealm_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleRealm_Tests/Pods-SimpleRealm_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleRealm_Tests/Pods-SimpleRealm_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A949A208667F02694AF29D5DCC8D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		80F939EE18E8CCD3DFD47FFD1734524E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745917371DEFA9E788DD62A81E58EE71 /* Pods-SimpleRealm_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleRealm_Example/Pods-SimpleRealm_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleRealm_Example/Pods-SimpleRealm_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D37886DDC7C9636D2C98FC30E6696D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5DC53D992A354773108BE05BEF9219 /* Pods-SimpleRealm_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleRealm_Example/Pods-SimpleRealm_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleRealm_Example/Pods-SimpleRealm_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DAA6A1384470DBE787FEA3F36183DEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F53C275091E58AE5EC0AC72D35EF06 /* SimpleRealm.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleRealm/SimpleRealm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleRealm/SimpleRealm-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleRealm/SimpleRealm.modulemap";
+				PRODUCT_MODULE_NAME = SimpleRealm;
+				PRODUCT_NAME = SimpleRealm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F60E989DEE46C70BD5BFC4B75F63BDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FBCBC47FF10EBB389EE0AF55CA17EB7 /* Pods-SimpleRealm_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleRealm_Tests/Pods-SimpleRealm_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleRealm_Tests/Pods-SimpleRealm_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */,
+				6A949A208667F02694AF29D5DCC8D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFDEA647956BE9F59E6B54ED919A996 /* Build configuration list for PBXNativeTarget "Pods-SimpleRealm_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F939EE18E8CCD3DFD47FFD1734524E /* Debug */,
+				D37886DDC7C9636D2C98FC30E6696D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E774A71425CB5A9D1C7E30700AB2280 /* Build configuration list for PBXNativeTarget "SimpleRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA6A1384470DBE787FEA3F36183DEA1 /* Debug */,
+				2C71613AF144917C447ED8B2FB0AFF75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C79E5877E4013FD1784ABE6531CFF8FA /* Build configuration list for PBXNativeTarget "Pods-SimpleRealm_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60E989DEE46C70BD5BFC4B75F63BDF9 /* Debug */,
+				51FF8C36A290680666D86F123F3BF4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

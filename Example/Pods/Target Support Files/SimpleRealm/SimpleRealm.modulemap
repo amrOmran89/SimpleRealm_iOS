@@ -1,0 +1,6 @@
+framework module SimpleRealm {
+  umbrella header "SimpleRealm-umbrella.h"
+
+  export *
+  module * { export * }
+}

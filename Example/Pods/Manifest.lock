@@ -1,0 +1,16 @@
+PODS:
+  - SimpleRealm (0.1.0)
+
+DEPENDENCIES:
+  - SimpleRealm (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleRealm:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleRealm: d1cf91799ba841dab704255378794a2757360f2c
+
+PODFILE CHECKSUM: 2d319be8c82c2cf5bfd7af161da092f5406159c4
+
+COCOAPODS: 1.6.0.beta.2
