@@ -31,11 +31,8 @@ TODO: Add long description of the pod here.
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'SimpleRealm/Classes/**/*'
-  
-  s.resource_bundles = {
-    'SimpleRealm' => ['SimpleRealm/Assets/**/*']
-  }
+  s.source_files = 'SimpleRealm/Classes/*'
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

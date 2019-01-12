@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'SimpleRealm_Example' do
-  pod 'SimpleRealm', :path => '../'
+  pod 'SimpleRealm', :git => 'https://github.com/amrOmran89/SimpleRealm_iOS.git'
 
   target 'SimpleRealm_Tests' do
     inherit! :search_paths

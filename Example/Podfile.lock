@@ -1,16 +1,34 @@
 PODS:
-  - SimpleRealm (0.1.0)
+  - Realm (3.13.0):
+    - Realm/Headers (= 3.13.0)
+  - Realm/Headers (3.13.0)
+  - RealmSwift (3.13.0):
+    - Realm (= 3.13.0)
+  - SimpleRealm (0.1.0):
+    - RealmSwift
 
 DEPENDENCIES:
-  - SimpleRealm (from `../`)
+  - SimpleRealm (from `https://github.com/amrOmran89/SimpleRealm_iOS.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Realm
+    - RealmSwift
 
 EXTERNAL SOURCES:
   SimpleRealm:
-    :path: "../"
+    :git: https://github.com/amrOmran89/SimpleRealm_iOS.git
+
+CHECKOUT OPTIONS:
+  SimpleRealm:
+    :commit: 0b3e88c62a9753da4821ac3b4db30895192b2b0a
+    :git: https://github.com/amrOmran89/SimpleRealm_iOS.git
 
 SPEC CHECKSUMS:
-  SimpleRealm: d1cf91799ba841dab704255378794a2757360f2c
+  Realm: 5edd2ee65406aef591a4f9895de5a3440e51b3d8
+  RealmSwift: be5ebc7930e37cd3376b41cec7f21984528aaa16
+  SimpleRealm: 5b9181740a78f8f1d196cc0878066f119e566acf
 
-PODFILE CHECKSUM: 2d319be8c82c2cf5bfd7af161da092f5406159c4
+PODFILE CHECKSUM: 9850dc3cffc151f12cd4cd95707a53a870139b2f
 
 COCOAPODS: 1.6.0.beta.2

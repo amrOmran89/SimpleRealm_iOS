@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of SimpleRealm.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/amr.omraan@icloud.com/SimpleRealm",
+  "homepage": "https://github.com/amr.omraan@icloud.com/SimpleRealm_iOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,24 @@
     "amr.omraan@icloud.com": "amr.omraan@icloud.com"
   },
   "source": {
-    "git": "https://github.com/amr.omraan@icloud.com/SimpleRealm.git",
+    "git": "https://github.com/amrOmran89/SimpleRealm_iOS.git",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "ios": "8.0"
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.2"
   },
-  "source_files": "SimpleRealm/Classes/**/*"
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SimpleRealm/Classes/**/*",
+  "resource_bundles": {
+    "SimpleRealm": [
+      "SimpleRealm/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "RealmSwift": [
+
+    ]
+  }
 }
