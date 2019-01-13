@@ -9,9 +9,11 @@ import Foundation
 import RealmSwift
 
 
-public class SimpleRealm: CRUDProtocol {
+public class DatabaseManager: CRUDProtocol {
     
     private let realm = try! Realm()
+    
+    public init() {}
     
     public func create(object: Object) {
         
@@ -49,8 +51,16 @@ public class SimpleRealm: CRUDProtocol {
         realm.delete(object)
     }
     
-    public func deleteOneElement(object: Object) {
-     //   realm.de
+    public func deleteOneElement<T>(object: T, id: String) where T : Object {
+        let predict = NSPredicate(format: "id == %@", id)
+        let oneElement = realm.objects(T.self).filter(predict).first
+        do {
+            try realm.write {
+                realm.delete(oneElement!)
+            }
+        } catch let error {
+           print(error.localizedDescription)
+        }
     }
 
     
