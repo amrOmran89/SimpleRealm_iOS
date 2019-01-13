@@ -33,25 +33,48 @@ import SimpleRealm
 
 class MyViewController: UIViewController {
 
+    // create an instance from DatabaseManager()
     let databaseManager = DatabaseManager()
+    
+    // Create an instance from Realm Object User()
+    let user = User()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        user.name = "Boby"
+        user.age = 12
+        user.id = UUID().uuidString
+        
+        databaseManager.create(object: self.user)
+        
+        databaseManager.readAll(object: self.user)
+        
+        
+        databaseManager.readWithQuery(object: self.user, query: "String")
+        databaseManager.readLast(object: self.user)
+        databaseManager.readFirst(object: self.user)
+        
+        databaseManager.update(object: self.user)
+        
+        databaseManager.deleteOneElement(object: self.user, id: id)
+        databaseManager.deleteAll(object: self.user)
+     
     }
 
 }
 
-
+/// User is Realm Object
 class User: Object {    
     @objc dynamic var name: String = ""
-    @objc dynamic var age: String = ""
+    @objc dynamic var age: Int = 0
     @objc dynamic var id: String = ""
     
     override static func primaryKey() -> String? {
         return "id"
     }
 }
+```
 
 ## Author
 
