@@ -22,6 +22,37 @@ it, simply add the following line to your Podfile:
 pod 'SimpleRealm', :git=> 'https://github.com/amrOmran89/SimpleRealm_iOS.git'
 ```
 
+
+## Usage
+
+### Quick Start
+
+```swift
+import UIKit
+import SimpleRealm
+
+class MyViewController: UIViewController {
+
+    let databaseManager = DatabaseManager()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+
+}
+
+
+class User: Object {    
+    @objc dynamic var name: String = ""
+    @objc dynamic var age: String = ""
+    @objc dynamic var id: String = ""
+    
+    override static func primaryKey() -> String? {
+        return "id"
+    }
+}
+
 ## Author
 
 Amr Omran
