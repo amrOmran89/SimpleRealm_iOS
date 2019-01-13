@@ -10,19 +10,21 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
+- iOS 10.0+
+- Xcode 10.0+
+- Swift 4.2+
 ## Installation
 
-SimpleRealm is available through [CocoaPods](https://cocoapods.org). To install
+To install 
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SimpleRealm'
+pod 'SimpleRealm', :git=> 'https://github.com/amrOmran89/SimpleRealm_iOS.git'
 ```
 
 ## Author
 
-amr.omraan@icloud.com, amr.omraan@icloud.com
+Amr Omran
 
 ## License
 
