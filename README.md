@@ -42,7 +42,7 @@ class MyViewController: UIViewController {
         super.viewDidLoad()
         
         user.name = "Boby"
-        user.age = 12
+        user.age = 25
         user.id = UUID().uuidString
         
         databaseManager.create(object: self.user)
@@ -50,7 +50,7 @@ class MyViewController: UIViewController {
         databaseManager.readAll(object: self.user)
         
         
-        databaseManager.readWithQuery(object: self.user, query: "String")
+        databaseManager.readWithQuery(object: self.user, query: "query")
         databaseManager.readLast(object: self.user)
         databaseManager.readFirst(object: self.user)
         
