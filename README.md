@@ -20,8 +20,7 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'SimpleRealm', :git=> 'https://github.com/amrOmran89/SimpleRealm_iOS.git'
-```
-
+``` 
 
 ## Usage
 
